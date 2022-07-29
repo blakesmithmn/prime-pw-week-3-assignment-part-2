@@ -25,7 +25,8 @@ for (let i = 3; i <= 5; i++) {
   console.log(i);
 }
 
-// changing starting value for the loop, as well as where the loop is checking to see if the code will run
+// changing starting value for the loop from 0 to 3
+// as well as where the loop is checking to see if the code will run - the condition 
 
 
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
@@ -36,7 +37,7 @@ for (let i = 2; i <= 10; i += 2) {
 }
 
 //in this example we are changing the start and end of the loop, as well as the additive property
-// this lets us print only the evens!
+// this lets us print only the evens! for some reason my brain overcomplicates the code for evens
 
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
@@ -44,6 +45,7 @@ console.log('STRETCH: countdown from 5 to 0');
 for (i = 5; i >= 0; i--) {
   console.log(i);
 }
+// wow look at us doing basic counting 
 
 // 2. For of loops  
 console.log('---- 2. For Of loop ----');
