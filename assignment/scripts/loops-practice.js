@@ -51,16 +51,38 @@ let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
 console.log('Some stars:');
+for (let star of stars) {
+  console.log(star);
+}
 
+// yeah I should probably use a more clear variable because the singular vs plural might get confusing
 
 // 3. While loops  
 console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
 console.log('Some stars using while:');
+let j = 0;
+while (j <= 4) {
+  console.log(stars[j]);
+  j++;
+}
+
+// why does it get angry when i use the same variable sometimes?
+
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
-
+let x = 0;
+while (x <= 5) {
+  console.log(x);
+  x++;
+}
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
+
+let n = 10;
+while (n >= 5) {
+  console.log(n);
+  n--;
+}
